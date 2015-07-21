@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Words</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">    
     <style>
         body { margin: 2em 0; }
     </style>
