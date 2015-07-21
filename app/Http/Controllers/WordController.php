@@ -53,6 +53,7 @@ class WordController extends Controller
         }
         $word = new Word;
         $word->name = $request->name;
+        $word->info = '';
         $word->save();
         return view('word.detail', ['name' => $request->name, 'info' => '', 'created_at' => '']);
     }
